@@ -14,7 +14,20 @@ A Streamlit app that analyzes tweet engagement, visualizes keyword performance, 
 
 ## 🗂️ Project Structure
 ```
-cyberpunk-twitter-persona-app/ ├── app.py ├── styles.css ├── utils.py ├── genai.py ├── requirements.txt ├── lucy-cyberpunk-cityscape.jpg ├── pages/ │ ├── 1_Homepage.py │ ├── 2_Keyword_Engagement.py │ └── 3_Persona_Tweet.py
+cyberpunk-twitter-persona-app/
+│
+├── app.py                      # Main entry — sets theme, loads background, navigation
+├── utils.py                   # Helper functions
+├── genai.py                   # Provided class
+├── styles.css                 # Cyberpunk styling (optional)
+├── lucy-cyberpunk-cityscape.jpg
+├── requirements.txt
+│
+├── pages/
+│   ├── 1_Homepage.py
+│   ├── 2_Keyword_Engagement.py
+│   └── 3_Persona_Tweet.py
+
 ```
 
 ## 🛠️ Setup Instructions
